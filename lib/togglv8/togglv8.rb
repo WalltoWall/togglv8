@@ -10,7 +10,7 @@ require_relative 'version'
 require_relative 'workspaces'
 
 module TogglV8
-  TOGGL_API_URL = 'https://api.track.toggl.com/api/v8/'
+  TOGGL_API_URL = 'https://api.track.toggl.com/api/'
 
   class API
     include TogglV8::Connection
